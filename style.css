@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: #129799;
+    height: 57vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 9vh;
+    align-items: center;
+}
+ul{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+h1{ position: relative;
+    top: 1vh;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
+}
+.secondNavHeader ul{
+    width:52vw;
+}
+main{
+    background-color: #FFA185;
+    height: 105vh;
+}
+.secondSectionMain{
+border: solid;
+height: 90vh;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.secondSectionMain img{
+    width: 40vw;
+    height: 40vh;
+}
